@@ -27,4 +27,12 @@
 			<artifactId>spring-boot-starter-webflux</artifactId>
 		</dependency>
 	</dependencies>
+
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub Auricular Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/Eb3rM5/auricular-base</url>
+		</repository>
+	</distributionManagement>
 </project>
