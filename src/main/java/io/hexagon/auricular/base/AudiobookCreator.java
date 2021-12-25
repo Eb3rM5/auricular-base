@@ -6,7 +6,9 @@ import io.hexagon.auricular.base.model.Audiobook;
 
 public interface AudiobookCreator<T extends Audiobook> {
 
-	List<T> getAvailableAudiobooks();
+	List<T> getAvailableAudiobooks(int limit, int offset);
+	
+	T getAudiobook(int id);
 	
 	List<T> getProjectAudiobooks(int projectId);
 	
