@@ -3,6 +3,7 @@ package io.hexagon.auricular.base;
 import java.util.List;
 
 import io.hexagon.auricular.base.model.Audiobook;
+import io.hexagon.auricular.base.model.Chapter;
 
 public interface AudiobookCreator<T extends Audiobook> {
 
@@ -10,6 +11,6 @@ public interface AudiobookCreator<T extends Audiobook> {
 	
 	T getAudiobook(int id);
 	
-	List<T> getProjectAudiobooks(int projectId);
+	List<Chapter> getAudiobookChapters(int audiobookId);
 	
 }
