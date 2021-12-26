@@ -18,4 +18,6 @@ public interface Audiobook {
 	
 	List<? extends Author> authors();
 	
+	String coverUrl();
+	
 }
